@@ -24,11 +24,12 @@
     background-color: #f7f2deed !important;
 }
 
-.Post-Main, /*文章页面根元素（大背景）*/
+.Post-content, /*文章页面根元素（大背景）*/
 .PostEditor, /*文章草稿编辑区*/
 .css-805ti0, /*非popup非文章评论编辑区*/
-.ContentItem-actions /*点赞栏*/,
+.ContentItem-actions, /*点赞栏*/
 .List-headerOptions>div>button, /*默认排序按钮*/
+.MoreAnswers>div>div>h4, /*"更多回答"四个字*/
 .css-12yl4eo, /*评论区popup主元素*/
 .AnswerCard, /*回答页主元素*/
 .MoreAnswers /*回答页更多问题列表*/
