@@ -3,32 +3,41 @@
 .ContentItem,
 .QuestionHeader-main,
 .Post-RichTextContainer,
-.Post-Header {
+.Post-Header,
+.WriteIndex-titleInput,
+.PostEditor-wrapper,
+.AnswerForm-editor
+{
     font-family: "STIX Two Text", "Noto Serif SC";
 }
 
 .QuestionHeader-main:not(.QuestionHeader-footer-main),
 .TopstoryItem,
 .ProfileMain,
-.AnswersNavWrapper {
+.AnswersNavWrapper,
+.AnswerForm-editor
+{
     width: 70vw;
     background-color: #f5e8b547 !important;
 }
 
-.Post-Main
+.Post-Main,
+.PostEditor
 {
-    background-color: #f5e8b547;
+    background-color: #f5e8b547 !important;
 }
 
 .Topstory-mainColumnCard,
 .Profile-mainColumn,
 .Post-RichTextContainer,
-.Post-Header {
+.Post-Header,
+.css-8pep6o
+{
     width: 70vw !important;
 }
 
-.AuthorInfo {
-    max-width: 66vw;
+.AuthorInfo, .PostEditor-wrapper {
+    max-width: 67vw;
 }
 
 .css-1oy4rvw,
