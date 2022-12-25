@@ -6,47 +6,57 @@
 .Post-Header,
 .WriteIndex-titleInput,
 .PostEditor-wrapper,
-.AnswerForm-editor
+.AnswerForm-editor,
+.List-header,
+.css-12yl4eo /*评论区popup主元素*/
 {
     font-family: "STIX Two Text", "Noto Serif SC";
 }
 
-.QuestionHeader-main:not(.QuestionHeader-footer-main),
-.TopstoryItem,
-.ProfileMain,
+.QuestionHeader-main:not(.QuestionHeader-footer-main), /*问题详情*/
+.TopstoryItem, /*首页推送主元素*/
+.ProfileMain, /*个人主页主元素*/
 .AnswersNavWrapper,
-.AnswerForm-editor
+.AnswerForm-editor, /*回答草稿编辑区主元素*/
+.css-1cqr2ue /*评论区popup父元素，有尺寸无内容*/
 {
     width: 70vw;
-    background-color: #f5e8b547 !important;
+    background-color: #f7f2deed !important;
 }
 
-.Post-Main,
-.PostEditor
+.Post-Main, /*文章页面根元素（大背景）*/
+.PostEditor, /*文章草稿编辑区*/
+.css-805ti0, /*非popup非文章评论编辑区*/
+.ContentItem-actions /*点赞栏*/,
+.List-headerOptions>div>button, /*默认排序按钮*/
+.css-12yl4eo, /*评论区popup主元素*/
+.AnswerCard, /*回答页主元素*/
+.MoreAnswers /*回答页更多问题列表*/
 {
-    background-color: #f5e8b547 !important;
+    background-color: #f7f2deed !important;
 }
 
-.Topstory-mainColumnCard,
-.Profile-mainColumn,
-.Post-RichTextContainer,
-.Post-Header,
-.css-8pep6o
+
+.Topstory-mainColumnCard, /*首页推送父元素，有尺寸无内容*/
+.Profile-mainColumn, /*个人主页父元素，有尺寸无内容*/
+.Post-RichTextContainer, /*文章页面主元素*/
+.Post-Header, /*文章页面标题栏*/
+.css-8pep6o, /*回答草稿编辑区父元素，有尺寸无内容*/
+.Question-mainColumn /*回答页父元素，有尺寸无内容*/
 {
     width: 70vw !important;
 }
 
-.AuthorInfo, .PostEditor-wrapper {
+.AuthorInfo, /*回答作者信息栏*/
+.PostEditor-wrapper /*文章草稿编辑区父元素，有尺寸无内容*/
+{
     max-width: 67vw;
 }
 
-.css-1oy4rvw,
-.QuestionInvitation {
+.css-1oy4rvw, /*侧边栏卡片*/
+.QuestionInvitation /*问题邀请卡片*/
+{
     visibility: hidden;
     width: 0;
     height: 0;
-}
-
-.ContentItem-actions {
-    background-color: #fff0;
 }
