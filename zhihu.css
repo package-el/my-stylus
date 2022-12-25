@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&family=Noto+Serif+SC:wght@200&family=Noto+Serif+TC:wght@200&family=STIX+Two+Text&display=swap');
+
+.ContentItem,
+.QuestionHeader-main,
+.Post-RichTextContainer,
+.Post-Header {
+    font-family: "STIX Two Text", "Noto Serif SC";
+}
+
+.QuestionHeader-main:not(.QuestionHeader-footer-main),
+.TopstoryItem,
+.ProfileMain,
+.AnswersNavWrapper {
+    width: 70vw;
+    background-color: #f5e8b547 !important;
+}
+
+.Post-Main
+{
+    background-color: #f5e8b547;
+}
+
+.Topstory-mainColumnCard,
+.Profile-mainColumn,
+.Post-RichTextContainer,
+.Post-Header {
+    width: 70vw !important;
+}
+
+.AuthorInfo {
+    max-width: 66vw;
+}
+
+.css-1oy4rvw,
+.QuestionInvitation {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.ContentItem-actions {
+    background-color: #fff0;
+}
